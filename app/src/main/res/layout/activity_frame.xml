@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".FrameActivity">
 
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/hi"/>
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
