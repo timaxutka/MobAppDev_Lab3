@@ -3,4 +3,7 @@
     <string name="button2">Button</string>
     <string name="button1">Button</string>
     <string name="button3">Button</string>
+    <string name="text" />
+    <string name="chat_send_button">Отправить</string>
+    <string name="chat_edit_text">Введите сообщение...</string>
 </resources>
